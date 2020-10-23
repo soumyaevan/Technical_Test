@@ -11,6 +11,8 @@ This automation test suit is selenium and Python test framework - Pytest
 5. **Reports** directory contains the html reports.
 6. **Tests** directory contains the test case. Here the **conftest.py** initiates the driver. **Base.py** uses the pytest fixture which is declared in conftest. and the two main test files are **test_CareerPage** and **test_DemoPage**. These both extends the Base.
 7. **requirements.txt** file contains all the python modules required to execute these tests.
+8. **Technical_Test.xlsx** file contains the functional test cases for bot the test sited. Two sheets have test cases for two sites
+9. **Technical_Test.pdf** file is pdf format of the functional test cases
 
 
 #### **How to Execute**
