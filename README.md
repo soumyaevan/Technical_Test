@@ -26,3 +26,4 @@ This automation test suit is selenium and Python test framework - Pytest
 7. To run the test for demo page execute the following command - `pytest Tests/test_DemoPage.py -v --html=Reports/report_name.html `. this will execute the test and store the report in Reports directory.
 8. Similarly to run the test for careers page execute the following command - `pytest Tests/test_CareerPage.py -v --html=Reports/careersReport.html`
 9. To run all the tests together execute the following command `pytest Tests -v --html=Reports/summary.html`
+10. By default this test will execute in Chrome. To add or change browser update the BROWSERS variable list in config.py file
