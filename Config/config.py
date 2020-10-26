@@ -1,5 +1,5 @@
 class TestData:
-    BROWSERS = ['chrome']
+    BROWSERS = ['firefox']
     CHROME_EXECUTABLE_PATH = "Drivers/chromedriver_mac"
     FIREFOX_EXECUTABLE_PATH = "Drivers/geckodriver_mac"
 
